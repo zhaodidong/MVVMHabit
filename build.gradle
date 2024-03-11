@@ -28,4 +28,8 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+task publishToMavenLocal(type: PublishToMavenLocal) {
+    group = 'publishing'
+    description = 'Publishes artifacts to the local Maven repository'
+}
 
