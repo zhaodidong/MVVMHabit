@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish' //用来推送aar到jitpack
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     defaultConfig {
